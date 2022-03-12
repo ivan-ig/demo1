@@ -1,5 +1,7 @@
 package com.example.demo.pack;
 
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
@@ -7,6 +9,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "ACCOUNT")
 @ToString
+@Getter @Setter
 public class Account {
 
     @Id
